@@ -1,0 +1,10 @@
+VOST
+Virtual Operations Support Teams beobachten den virtuellen Raum und versuchen relevante Informationen die Feuerwehr zu identifizieren (u.a Social Media Aktivtäten - aber nicht nur)
+Aktuell bedeutet dies konkret, dass ein Team unterschiedlichste Plattformen, wie Twitter, Instagram o.ä. von Hand durchstöbern.
+
+Wir haben versucht eine einfache Prozesskette aufzusetzen, um Daten automatisiert aus verschiedenen Plattformen zu sammeln, kategorisieren, sortieren und auf einer graphischen Oberfläche für ein VOSTeam zur manuellen Bewertung bereitzustellen.
+
+Als Demonstration wurden öffentliche Daten von Instagram Profilen extrahiert, durch ein Python-Skript auf Stichwörter geprüft und in einer SQL-Datenbank gespeichert.
+Die Datenbankeinträge (in unserer Demo: Instagram-Posts mit Metadaten) können über den Browser sortiert abgerufen und manuell bewertet werden.
+
+Nun bietet sich Potential für die Weiterentwicklung der Teilschritte dieser Prozesskette. Beispielsweise die Integration weiterer Plattformen (Twitter, Facebook, Youtube, Reddit,...), Kategorisierung mittels Ki-Modellen zur Erkennung von Stimmungen in der Sprache der Beiträge oder Erkennung von Gefahren in Bildern (z.B. Rauchsäule). Weitere Möglichkeiten wären eine automatische Verifizierung der Medien durch Sensor-Signaturen oder durch Suche, ob das Bild in Vergangenheit schon existiert hat und damit nicht mehr aktuell relevant ist.
